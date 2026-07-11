@@ -1,11 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Genius Moves creates thoughtful, polished puzzle and casual games including Magneterium and Lullabloom." />
+  <meta name="theme-color" content="#111827" />
+  <title>Genius Moves | Games Made to Feel Good</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Genius Moves home">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>Genius Moves</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#games">Explore Games</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent game studio</p>
+          <h1>Small games.<br /><span>Big moments of joy.</span></h1>
+          <p class="hero-text">
+            Genius Moves creates polished puzzle and casual games that are easy to start,
+            satisfying to master, and delightful to return to.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#games">View our games</a>
+            <a class="button button-secondary" href="#about">Meet the studio</a>
+          </div>
+
+          <div class="hero-points" aria-label="Studio highlights">
+            <span>Original ideas</span>
+            <span>Thoughtful design</span>
+            <span>Player-first experiences</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="game-orbit orbit-a"></div>
+          <div class="game-orbit orbit-b"></div>
+          <div class="floating-card card-top">
+            <span class="mini-label">Puzzle</span>
+            <strong>Magneterium</strong>
+            <small>Think. Pull. Solve.</small>
+          </div>
+          <div class="floating-card card-bottom">
+            <span class="mini-label">Casual</span>
+            <strong>Lullabloom</strong>
+            <small>Tap into calm.</small>
+          </div>
+          <div class="core-symbol">
+            <span>GM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Our games</p>
+          <h2>Playful worlds built with care</h2>
+          <p>
+            Each game is designed around a simple idea, refined into a polished experience.
+          </p>
+        </div>
+
+        <div class="games-grid">
+          <article class="game-card magneterium">
+            <div class="game-art" aria-hidden="true">
+              <div class="magnet magnet-left"></div>
+              <div class="magnet magnet-right"></div>
+              <div class="game-block block-one"></div>
+              <div class="game-block block-two"></div>
+              <div class="game-block block-three"></div>
+              <div class="game-star">★</div>
+            </div>
+            <div class="game-content">
+              <div class="game-meta">
+                <span>Puzzle</span>
+                <span>Android</span>
+              </div>
+              <h3>Magneterium</h3>
+              <p>
+                A gravity-bending puzzle game where every pull, rotation, and block placement matters.
+              </p>
+              <a class="text-link" href="#" aria-label="View Magneterium on Google Play">
+                View on Google Play <span aria-hidden="true">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="game-card lullabloom">
+            <div class="game-art" aria-hidden="true">
+              <div class="bubble bubble-a"></div>
+              <div class="bubble bubble-b"></div>
+              <div class="bubble bubble-c"></div>
+              <div class="bubble bubble-d"></div>
+              <div class="flower-core">✦</div>
+            </div>
+            <div class="game-content">
+              <div class="game-meta">
+                <span>Casual</span>
+                <span>Coming soon</span>
+              </div>
+              <h3>Lullabloom</h3>
+              <p>
+                A charming bubble-tapping game filled with colorful themes, soft motion, and satisfying pops.
+              </p>
+              <span class="text-link muted">In development</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section studio-section" id="about">
+      <div class="container studio-grid">
+        <div>
+          <p class="eyebrow">About the studio</p>
+          <h2>Games designed by curiosity</h2>
+        </div>
+        <div class="studio-copy">
+          <p>
+            Genius Moves is an independent game studio focused on creating accessible,
+            visually distinctive games for mobile players.
+          </p>
+          <p>
+            We care about clear mechanics, smooth interactions, rewarding progression,
+            and experiences that respect the player’s time.
+          </p>
+        </div>
+      </div>
+
+      <div class="container values-grid">
+        <article>
+          <span>01</span>
+          <h3>Simple to learn</h3>
+          <p>Clear ideas and intuitive controls make every game easy to begin.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Satisfying to master</h3>
+          <p>Layered mechanics and thoughtful progression keep play rewarding.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Made with care</h3>
+          <p>From motion to sound to visual polish, every detail has a purpose.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h2>Questions, feedback, or support?</h2>
+          <p>
+            We would love to hear from players, testers, collaborators, and fellow game creators.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:developershuaib@gmail.com">Email Genius Moves</a>
+          <a class="button button-secondary" href="https://developershuaib.github.io/Magneterium-Privacy-Policy/">
+            Privacy Policy
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="brand footer-brand">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>Genius Moves</span>
+      </div>
+      <p>© <span id="year"></span> Genius Moves. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://developershuaib.github.io/Magneterium-Privacy-Policy/">Privacy</a>
+        <a href="app-ads.txt">app-ads.txt</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
